@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 330 283.5" style="enable-background:new 0 0 330 283.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:none;stroke:#4785C5;stroke-width:0.25;stroke-miterlimit:10;enable-background:new    ;}
+	.st1{fill:#4785C5;}
+	.st2{opacity:0.2;fill:#4785C5;enable-background:new    ;}
+	.st3{fill:none;stroke:#4785C5;stroke-width:0.5;stroke-miterlimit:10;}
+	.st4{font-family:'Arial-BoldMT';}
+	.st5{font-size:10.7289px;}
+	.st6{font-family:'ArialMT';}
+	.st7{font-size:7.5653px;}
+	.st8{fill:none;}
+</style>
+<circle class="st0" cx="164.3" cy="138.5" r="53.8"/>
+<circle class="st0" cx="164.3" cy="138.5" r="73.3"/>
+<circle class="st0" cx="164.3" cy="138.5" r="91.8"/>
+<g>
+	<circle class="st1" cx="111.4" cy="64.2" r="7.7"/>
+	<circle class="st2" cx="111.4" cy="64.2" r="9"/>
+</g>
+<g>
+	<circle class="st1" cx="195.1" cy="52.3" r="9.1"/>
+	<circle class="st2" cx="195.1" cy="52.3" r="10.5"/>
+</g>
+<g>
+	<circle class="st1" cx="244" cy="105.4" r="10.5"/>
+	<circle class="st2" cx="244" cy="105.4" r="12.2"/>
+</g>
+<g>
+	<circle class="st1" cx="254.6" cy="198.4" r="15.5"/>
+	
+		<ellipse transform="matrix(0.3162 -0.9487 0.9487 0.3162 -14.1401 377.197)" class="st2" cx="254.6" cy="198.4" rx="17.9" ry="17.9"/>
+</g>
+<g>
+	<circle class="st1" cx="163.9" cy="247.1" r="3"/>
+	<circle class="st2" cx="163.9" cy="247.1" r="3.5"/>
+</g>
+<line class="st3" x1="110.6" y1="63.1" x2="133.1" y2="94.6"/>
+<line class="st3" x1="195.2" y1="52.1" x2="182.6" y2="87.8"/>
+<line class="st3" x1="244" y1="106.4" x2="214.6" y2="119"/>
+<line class="st3" x1="254.6" y1="201.4" x2="207.8" y2="170.2"/>
+<line class="st3" x1="163.9" y1="247.2" x2="164.3" y2="192.3"/>
+<g>
+	<circle class="st1" cx="91.8" cy="195.3" r="5.2"/>
+	<circle class="st2" cx="91.8" cy="195.3" r="6"/>
+</g>
+<g>
+	<circle class="st1" cx="73.1" cy="129.4" r="5.7"/>
+	<circle class="st2" cx="73.1" cy="129.4" r="6.7"/>
+</g>
+<line class="st3" x1="91.8" y1="195.3" x2="121.7" y2="171.4"/>
+<text transform="matrix(1 0 0 1 95.2402 38.3117)" class="st1 st4 st5">300$</text>
+<text transform="matrix(1 0 0 1 39.3398 46.9338)" class="st1 st6 st7">for each affiliation in the</text>
+<text transform="matrix(1 0 0 1 83.3525 54.6242)" class="st1 st6 st7">generation</text>
+<text transform="matrix(1 0 0 1 44.8604 134.217)" class="st1 st4 st5">30$</text>
+<text transform="matrix(1 0 0 1 44.8594 143.7052)" class="st1 st6 st7">Fees per level </text>
+<text transform="matrix(1 0 0 1 44.8594 151.3957)" class="st1 st6 st7">crossing</text>
+<text transform="matrix(1 0 0 1 208.2373 33.256)" class="st1 st4 st5">750$</text>
+<text transform="matrix(1 0 0 1 208.2373 41.8771)" class="st1 st6 st7">Net benefice ( level1 )</text>
+<text transform="matrix(1 0 0 1 257.5166 107.3957)" class="st1 st4 st5">1530$</text>
+<text transform="matrix(1 0 0 1 260.0391 116.0168)" class="st1 st6 st7">Net benefice</text>
+<text transform="matrix(1 0 0 1 260.0391 125.0939)" class="st1 st6 st7">( level2 )</text>
+<text transform="matrix(1 0 0 1 273.6348 205.8586)" class="st1 st4 st5">3090$</text>
+<text transform="matrix(1 0 0 1 273.6348 214.4806)" class="st1 st6 st7">Net benefice</text>
+<text transform="matrix(1 0 0 1 273.6348 222.172)" class="st1 st6 st7">( level3 )</text>
+<rect x="171" y="245" class="st8" width="37.1" height="6.9"/>
+<text transform="matrix(1 0 0 1 171.0039 248.8176)" class="st1 st6 st7">Binary Matrix</text>
+<text transform="matrix(1 0 0 1 57.583 205.8586)" class="st1 st6 st7">3 Levels</text>
+<line class="st3" x1="72.9" y1="130.4" x2="110.5" y2="133.7"/>
+</svg>
