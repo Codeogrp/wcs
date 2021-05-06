@@ -16,7 +16,11 @@
 <!-- Extra CSS -->
 <link rel="stylesheet" href="public/assets/css/theme.css?ver=192">
 
-
+<?php 
+include_once('model/utilisateurs/create.php');
+extract($_SESSION);
+session_destroy();
+?>
 
 
 </head>
@@ -34,33 +38,89 @@
                 </div>
                 <div class="ath-body">
                     <h5 class="ath-heading title">Inscrivez vous </h5>
-                    <form action="./">
+                    <form action="#" method="POST">
+                    <!-- Pour les notifs   -->
+                    <div id="message">
+                        <?php
+                           // $message = 'toastr.error("Have Fun")';
+                        ?>
+                    </div>
                         <div class="field-item">
                             <div class="field-wrap">
-                                <input type="text" class="input-bordered" placeholder="Nom et Prénoms">
+                                <input type="text" required class="input-bordered" name="nom_prenom" placeholder="Nom et Prénoms">
                             </div>
                         </div>
                         <div class="field-item">
                             <div class="field-wrap">
-                                <input type="text" class="input-bordered" placeholder="Email">
+                                <input type="email" required class="input-bordered" name="mail" placeholder="Email">
                             </div>
                         </div>
                         <div class="field-item">
                             <div class="field-wrap">
-                                <input type="password" class="input-bordered" placeholder="Mot de passe">
+                                <input type="password" required class="input-bordered" id="mdp" name="mdp" onkeyup='check();' placeholder="Mot de passe">
                             </div>
                         </div>
+                        
                         <div class="field-item">
                             <div class="field-wrap">
-                                <input type="password" class="input-bordered" placeholder="Confirmez le mot de passe">
+                                <input type="password" class="input-bordered" id="mdp2" onkeyup='check();' placeholder="Confirmez le mot de passe">
                             </div>
                         </div>
-                        <div class="field-item">
-                            <input class="input-checkbox" id="agree-term-2" type="checkbox">
+                        
+                        <div class="field-item" id="checkBoxList">
+                            <input class="input-checkbox" name="checkme" id="agree-term-2" type="checkbox">
                             <label for="agree-term-2">J'ai lu et j'accepte les <a href="#">Termes et Conditions</a>.</label>
                         </div>
-                        <button class="btn btn-primary btn-block btn-md">S'inscrire</button>
-                    </form>
+                        <button style="background-color: #16a3fe; border-color: #16a3fe; "  value=1 id="confirm" class="btn"  name="confirm"  disabled="disabled">S'inscrire</button>
+                        <!--<button  id="confirm" class="btn btn-primary btn-block btn-md" disabled="disabled">S'inscrire</button>
+                  -->  </form>
+                   
+                    <script>
+                        var a,b;
+                         var check = document.getElementsByName('checkme');
+                        //var checkBoxList = document.getElementById('checkBoxList');
+                        var inscrire = document.getElementById('confirm');
+
+                        function allTrue(nodeList) {
+                        for (var i = 0; i < nodeList.length; i++) {
+                            if (nodeList[i].checked === false) return false;
+                        }
+                        return true;
+                        }
+                        checkBoxList.addEventListener('click', function(event) {
+                        //inscrire.disabled = true;
+                        a = false;
+                        disable();
+                        if (allTrue(check)) {a = true /*inscrire.disabled = false*/;
+                            disable();
+                        }
+                            
+                        });   
+
+                        var check = function() {
+                            if (document.getElementById('mdp').value ==
+                                document.getElementById('mdp2').value) {
+                                   b=true;
+                                   disable();
+                               /* document.getElementById('message').style.color = 'green';
+                                document.getElementById('message').innerHTML = 'matching';*/
+                            } else {
+                               /*document.getElementById('message').style.color = 'red';
+                                document.getElementById('message').innerHTML = 'not matching';*/
+                                b= false;
+                                disable();
+                            }
+                        }    
+
+                        var disable = function(){
+                            if (a==true && b == true){
+                                inscrire.disabled= false; 
+                            }
+                            else{
+                                inscrire.disabled= true; 
+                            }
+                        }
+                    </script>
                     
                 </div>
                 <div class="ath-note text-center tc-light">
@@ -76,5 +136,10 @@
 	<script src="public/assets/js/jquery.bundle.js?ver=192"></script>
 	<script src="public/assets/js/scripts.js?ver=192"></script>
 	<script src="public/assets/js/charts.js"></script>
+      <!--   Toastr js -->
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <script type="text/javascript"><?php if(isset($message) && !empty($message)){print $message;}  ?></script>
 </body>
 </html>

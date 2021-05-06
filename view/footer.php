@@ -159,5 +159,11 @@
 	<script src="public/assets/js/jquery.bundle.js?ver=192"></script>
 	<script src="public/assets/js/scripts.js?ver=192"></script>
 	<script src="public/assets/js/charts.js"></script>
+
+    <!--   Toastr js -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <script type="text/javascript"><?php if(isset($mesage) && !empty($message)){echo $mesage;}  ?></script>
 </body>
 </html>
