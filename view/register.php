@@ -1,4 +1,11 @@
 
+<?php 
+require_once('../model/utilisateurs/u_create.php');
+extract($_SESSION);
+//session_destroy();
+//header('Location:login.php')
+?>
+
 <!DOCTYPE html>
 <html lang="zxx" class="js">
 <head>
@@ -7,20 +14,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <!-- Fav Icon  -->
-<link rel="shortcut icon" href="images/favicon.png">
+<link rel="shortcut icon" href="../images/favicon.png">
 <!-- Site Title  -->
 <title>Wincash Services | Connexion</title>
 <!-- Bundle and Base CSS -->
-<link rel="stylesheet" href="public/assets/css/vendor.bundle.css?ver=192">
-<link rel="stylesheet" href="public/assets/css/style.css?ver=192" id="changeTheme">
+<link rel="stylesheet" href="../public/assets/css/vendor.bundle.css?ver=192">
+<link rel="stylesheet" href="../public/assets/css/style.css?ver=192" id="changeTheme">
 <!-- Extra CSS -->
-<link rel="stylesheet" href="public/assets/css/theme.css?ver=192">
-
-<?php 
-include_once('model/utilisateurs/create.php');
-extract($_SESSION);
-session_destroy();
-?>
+<link rel="stylesheet" href="../public/assets/css/theme.css?ver=192">
 
 
 </head>
@@ -34,7 +35,7 @@ session_destroy();
         <main class="nk-pages nk-pages-centered bg-theme">
             <div class="ath-container">
                 <div class="ath-header text-center">
-                    <a href="./" class="ath-logo"><img src="public/images/wcstw.png" alt="logo"></a>
+                    <a href="./" class="ath-logo"><img src="../public/images/wcstw.png" alt="logo"></a>
                 </div>
                 <div class="ath-body">
                     <h5 class="ath-heading title">Inscrivez vous </h5>
@@ -124,7 +125,7 @@ session_destroy();
                     
                 </div>
                 <div class="ath-note text-center tc-light">
-                    Avez vous déjà un compte? <a href="index.php?p=register"> <strong>Connectez vous</strong></a>
+                    Avez vous déjà un compte ? <a href="login.php"> <strong>Connectez vous</strong></a>
                 </div>
             </div>
         </main>
@@ -133,9 +134,9 @@ session_destroy();
 	<div class="preloader"><span class="spinner spinner-round"></span></div>
 	
 	<!-- JavaScript -->
-	<script src="public/assets/js/jquery.bundle.js?ver=192"></script>
-	<script src="public/assets/js/scripts.js?ver=192"></script>
-	<script src="public/assets/js/charts.js"></script>
+	<script src="../public/assets/js/jquery.bundle.js?ver=192"></script>
+	<script src="../public/assets/js/scripts.js?ver=192"></script>
+	<script src="../public/assets/js/charts.js"></script>
       <!--   Toastr js -->
       <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>

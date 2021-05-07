@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <!-- Fav Icon  -->
-<link rel="shortcut icon" href="images/favicon.png">
+<link rel="shortcut icon" href="../public/images/favicon.png">
 <!-- Site Title  -->
 <title>Wincash Services</title>
 <!-- Bundle and Base CSS -->
-<link rel="stylesheet" href="public/assets/css/vendor.bundle.css?ver=192">
-<link rel="stylesheet" href="public/assets/css/style.css?ver=192" id="changeTheme">
+<link rel="stylesheet" href="../public/assets/css/vendor.bundle.css?ver=192">
+<link rel="stylesheet" href="../public/assets/css/style.css?ver=192" id="changeTheme">
 <!-- Extra CSS -->
-<link rel="stylesheet" href="public/assets/css/theme.css?ver=192">
+<link rel="stylesheet" href="../public/assets/css/theme.css?ver=192">
 
 </head>
 
@@ -30,8 +30,8 @@
                     <div class="header-logo logo">
                         <a href="index.php?p=accueil" class="logo-link">
                             
-                            <img class="logo-dark" src="public/images/wcst.png" alt="logo">
-                            <img class="logo-light" src="public/images/wcstw.png" alt="logo">
+                            <img class="logo-dark" src="../public/images/wcst.png" alt="logo">
+                            <img class="logo-light" src="../public/images/wcstw.png" alt="logo">
                         </a>
                     </div>
 
@@ -68,7 +68,7 @@
 </ul>
 
 <ul class="menu-btns">
-    <li><a href="index.php?p=login" class="btn btn-md btn-auto btn-grad no-change"><span>Se connecter</span></a></li>
+    <li><a href="login.php" class="btn btn-md btn-auto btn-grad no-change"><span>Se connecter</span></a></li>
 </ul>
 </nav>
                     </div><!-- .header-navbar @e -->

@@ -135,7 +135,7 @@
                                 <div class="wgs wgs-text">
                                     <div class="wgs-body">
                                         <a href="./" class="wgs-logo">
-                                            <img src="images/logo-full-white.png" srcset="images/logo-full-white2x.png 2x" alt="logo">
+                                            <img src="../public/assets/images/logo-full-white.png" srcset="images/logo-full-white2x.png 2x" alt="logo">
                                         </a>
                                         <p>Copyright © 2018 ICO Crypto. <br>ABN: 2018AD947. All rights reserved. </p>
                                         <p class="copyright-text">Template by <a href="https://softnio.com/">Softnio</a>. Handcrafted by iO.</p>
@@ -156,14 +156,16 @@
 	<div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="../public/images/wcs.svg" alt=""></span></div>
 	
 	<!-- JavaScript -->
-	<script src="public/assets/js/jquery.bundle.js?ver=192"></script>
-	<script src="public/assets/js/scripts.js?ver=192"></script>
-	<script src="public/assets/js/charts.js"></script>
+	<script src="../public/assets/js/jquery.bundle.js?ver=192"></script>
+	<script src="../public/assets/js/scripts.js?ver=192"></script>
+	<script src="../public/assets/js/charts.js"></script>
 
     <!--   Toastr js -->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
     <script type="text/javascript"><?php if(isset($mesage) && !empty($message)){echo $mesage;}  ?></script>
+    <?php include_once('toastr/toastr.php')?>
+
 </body>
 </html>
