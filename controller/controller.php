@@ -44,11 +44,11 @@ session_start();
 			
 	}
     else
-	{
+ 	{  require("view/accueil.php");
 		if(isset($_GET['id'])){
 				
 		} 
-			require("view/acceuil.php");
+		
 	 
 			
 	}
