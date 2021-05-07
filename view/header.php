@@ -68,7 +68,7 @@
 </ul>
 
 <ul class="menu-btns">
-    <li><a href="login.php" class="btn btn-md btn-auto btn-grad no-change"><span>Se connecter</span></a></li>
+    <li><a href="login.php" class="btn btn-md btn-auto btn-grad no-change"><span>Se deconnecter</span></a></li>
 </ul>
 </nav>
                     </div><!-- .header-navbar @e -->
