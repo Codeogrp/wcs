@@ -1,6 +1,4 @@
-<?php 
-session_start();
-// Création d'un nouvel utilisateur
+<?php  
 $bdd = new PDO('mysql:host=localhost;dbname=wcsdb', 'root', '');
 extract($_POST);
 //$_SESSION["message"]= 'toastr.success("message ")';   
@@ -13,7 +11,7 @@ if(isset($login) && !empty($login) ) {
       $_SESSION["mail"]=$mail;
       $_SESSION["mdp"]=$mdp; 
       $_SESSION["message"]= 'toastr.success("Bienvenue'+ $mail+ '")';
-      header("Location : profil.php");  
+      header("Location : index.php?p=profil");  
        
    }else{
       $_SESSION["message"]= 'toastr.error("Adresse Mail ou Mot de passe incorrects")';

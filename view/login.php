@@ -1,7 +1,7 @@
  
 <?php 
 session_start();
-require_once('../model/utilisateurs/u_login.php');
+//require_once('../model/utilisateurs/u_login.php');
 extract($_SESSION); 
 //   print $_SESSION["mail"];
 //session_destroy();
@@ -18,10 +18,10 @@ extract($_SESSION);
 <!-- Site Title  -->
 <title>Wincash Services | Connexion</title>
 <!-- Bundle and Base CSS -->
-<link rel="stylesheet" href="../public/assets/css/vendor.bundle.css?ver=192">
-<link rel="stylesheet" href="../public/assets/css/style.css?ver=192" id="changeTheme">
+<link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=192">
+<link rel="stylesheet" href="assets/css/style.css?ver=192" id="changeTheme">
 <!-- Extra CSS -->
-<link rel="stylesheet" href="../public/assets/css/theme.css?ver=192">
+<link rel="stylesheet" href="assets/css/theme.css?ver=192">
 
 
 
@@ -37,7 +37,7 @@ extract($_SESSION);
         <main class="nk-pages nk-pages-centered bg-theme">
             <div class="ath-container">
                 <div class="ath-header text-center">
-                    <a href="./" class="ath-logo"><img src="images/logo-full-white.png" srcset="../public/images/wcstw.png" alt="logo"></a>
+                    <a href="./" class="ath-logo"><img src="images/logo-full-white.png" srcset="images/wcstw.png" alt="logo"></a>
                 </div>
                 <div class="ath-body">
                     <h5 class="ath-heading title">Connectez vous !</h5>
@@ -66,7 +66,7 @@ extract($_SESSION);
                     
                 </div>
                 <div class="ath-note text-center tc-light">
-                Vous n'avez pas encore de compte? <a href="register.php"> <strong>Inscrivez vous ici..</strong></a>                </div>
+                Vous n'avez pas encore de compte? <a href="index.php?p=register"> <strong>Inscrivez vous ici..</strong></a>                </div>
             </div>
         </main>
     
@@ -74,9 +74,9 @@ extract($_SESSION);
 	<div class="preloader"><span class="spinner spinner-round"></span></div>
 	
 	<!-- JavaScript -->
-	<script src="../public/assets/js/jquery.bundle.js?ver=192"></script>
-	<script src="../public/assets/js/scripts.js?ver=192"></script>
-	<script src="../public/assets/js/charts.js"></script>
+	<script src="assets/js/jquery.bundle.js?ver=192"></script>
+	<script src="assets/js/scripts.js?ver=192"></script>
+	<script src="assets/js/charts.js"></script>
  <?php include_once('toastr/toastr.php')?>
 </body>
 </html>

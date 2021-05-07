@@ -1,4 +1,3 @@
-
 <?php include("header.php");  ?>
 
 
@@ -69,23 +68,23 @@
                 <h6 class="title title-xs tc-primary pdb-s">Ico Rating</h6>
                 <ul class="rank-list">
                     <li class="rank-item">
-                        <img src="../public/images/logo/a.png" alt="logo">
+                        <img src="images/logo/a.png" alt="logo">
                         <div class="rank-count">4.7 <span>/5</span></div>
                     </li>
                     <li class="rank-item">
-                        <img src="../public/images/logo/b.png" alt="logo">
+                        <img src="images/logo/b.png" alt="logo">
                         <div class="rank-count">A</div>
                     </li>
                     <li class="rank-item">
-                        <img src="../public/images/logo/c.png" alt="logo">
+                        <img src="images/logo/c.png" alt="logo">
                         <div class="rank-count">9.4 <span>/10</span></div>
                     </li>
                     <li class="rank-item">
-                        <img src="../public/images/logo/d.png" alt="logo">
+                        <img src="images/logo/d.png" alt="logo">
                         <div class="rank-count">4.9 <span>/5</span></div>
                     </li>
                     <li class="rank-item">
-                        <img src="../public/images/logo/e.png" alt="logo">
+                        <img src="images/logo/e.png" alt="logo">
                         <div class="rank-count">5 <span>/5</span></div>
                     </li>
                 </ul>
@@ -99,7 +98,7 @@
                         <div class="row align-items-center justify-content-lg-between gutter-vr-30px">
                             <div class="col-lg-5">
                                 <div class="nk-block-video">
-                                    <img src="../public/images/services-4.jpg" alt="image">
+                                    <img src="images/services-4.jpg" alt="image">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -271,13 +270,13 @@
                     <div class="nk-block block-partners">
                         <h6 class="title title-xs title-light text-center">Our Partners</h6>
                         <ul class="partner-list flex-lg-nowrap">
-                            <li class="partner-logo"><img src="../public/images/partners/a.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="../public/images/partners/b.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="../public/images/partners/c.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="../public/images/partners/d.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="../public/images/partners/e.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="../public/images/partners/f.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="../public/images/partners/g.png" alt="partner"></li>
+                            <li class="partner-logo"><img src="images/partners/a.png" alt="partner"></li>
+                            <li class="partner-logo"><img src="images/partners/b.png" alt="partner"></li>
+                            <li class="partner-logo"><img src="images/partners/c.png" alt="partner"></li>
+                            <li class="partner-logo"><img src="images/partners/d.png" alt="partner"></li>
+                            <li class="partner-logo"><img src="images/partners/e.png" alt="partner"></li>
+                            <li class="partner-logo"><img src="images/partners/f.png" alt="partner"></li>
+                            <li class="partner-logo"><img src="images/partners/g.png" alt="partner"></li>
                         </ul>
                     </div>
                     <!-- Block @e -->

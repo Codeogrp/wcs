@@ -10,25 +10,25 @@ $mail = $_SESSION["mail"];
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Wincash Services | Profil</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="../public/admin/assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="../public/admin/assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="admin/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="admin/assets/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="../public/admin/assets/css/style.css">
+    <link rel="stylesheet" href="admin/assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="../public/admin/assets/images/favicon.png" />
+    <link rel="shortcut icon" href="admin/assets/images/favicon.png" />
   </head>
   <body>
     <div class="container-scroller">
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-          <a class="navbar-brand brand-logo" href="index.html"><img src="../public/admin/assets/images/logo.svg" alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="../public/admin/assets/images/logo-mini.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo" href="index.html"><img src="admin/assets/images/logo.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="admin/assets/images/logo-mini.svg" alt="logo" /></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-stretch">
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -48,7 +48,7 @@ $mail = $_SESSION["mail"];
             <li class="nav-item nav-profile dropdown">
               <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
                 <div class="nav-profile-img">
-                  <img src="../public/admin/assets/images/faces/face1.jpg" alt="image">
+                  <img src="admin/assets/images/faces/face1.jpg" alt="image">
                   <span class="availability-status online"></span>
                 </div>
                 <div class="nav-profile-text">
@@ -78,7 +78,7 @@ $mail = $_SESSION["mail"];
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="../public/admin/assets/images/faces/face4.jpg" alt="image" class="profile-pic">
+                    <img src="admin/assets/images/faces/face4.jpg" alt="image" class="profile-pic">
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
@@ -88,7 +88,7 @@ $mail = $_SESSION["mail"];
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="../public/admin/assets/images/faces/face2.jpg" alt="image" class="profile-pic">
+                    <img src="admin/assets/images/faces/face2.jpg" alt="image" class="profile-pic">
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
@@ -98,7 +98,7 @@ $mail = $_SESSION["mail"];
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
-                    <img src="../public/admin/assets/images/faces/face3.jpg" alt="image" class="profile-pic">
+                    <img src="admin/assets/images/faces/face3.jpg" alt="image" class="profile-pic">
                   </div>
                   <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated</h6>
@@ -180,7 +180,7 @@ $mail = $_SESSION["mail"];
             <li class="nav-item nav-profile">
               <a href="#" class="nav-link">
                 <div class="nav-profile-image">
-                  <img src="../public/admin/assets/images/faces/face1.jpg" alt="profile">
+                  <img src="admin/assets/images/faces/face1.jpg" alt="profile">
                   <span class="login-status online"></span>
                   <!--change to offline or busy as needed-->
                 </div>
@@ -220,19 +220,19 @@ $mail = $_SESSION["mail"];
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="../public/admin/assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="admin/assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
-    <script src="../public/admin/assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="admin/assets/vendors/chart.js/Chart.min.js"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="../public/admin/assets/js/off-canvas.js"></script>
-    <script src="../public/admin/assets/js/hoverable-collapse.js"></script>
-    <script src="../public/admin/assets/js/misc.js"></script>
+    <script src="admin/assets/js/off-canvas.js"></script>
+    <script src="admin/assets/js/hoverable-collapse.js"></script>
+    <script src="admin/assets/js/misc.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
-    <script src="../public/admin/assets/js/dashboard.js"></script>
-    <script src="../public/admin/assets/js/todolist.js"></script>
+    <script src="admin/assets/js/dashboard.js"></script>
+    <script src="admin/assets/js/todolist.js"></script>
     <!-- End custom js for this page -->
  <?php include_once('toastr/toastr.php')?>
 

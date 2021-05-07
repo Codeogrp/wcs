@@ -47,9 +47,9 @@ session_start();
 	{
 		if(isset($_GET['id'])){
 				
-		}else{
-			require("view/login.php");
-		}
+		} 
+			require("view/acceuil.php");
+	 
 			
 	}
 	

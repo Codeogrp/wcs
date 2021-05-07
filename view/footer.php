@@ -156,9 +156,9 @@
 	<div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="../public/images/wcs.svg" alt=""></span></div>
 	
 	<!-- JavaScript -->
-	<script src="../public/assets/js/jquery.bundle.js?ver=192"></script>
-	<script src="../public/assets/js/scripts.js?ver=192"></script>
-	<script src="../public/assets/js/charts.js"></script>
+	<script src="assets/js/jquery.bundle.js?ver=192"></script>
+	<script src="assets/js/scripts.js?ver=192"></script>
+	<script src="assets/js/charts.js"></script>
 
     <!--   Toastr js -->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>

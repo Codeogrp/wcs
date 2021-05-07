@@ -11,7 +11,7 @@ if(isset($confirm) && !empty($confirm) ) {
     $nb = $req->rowCount();
     if ($nb>0){
         $_SESSION["message"]= 'toastr.error("Cet adresse mail est déja utilisé")';
-        header("Location:register.php");
+        header("Location:index.php?p=register");
 
     }else{ 
         $mdp = password_hash($mdp, PASSWORD_DEFAULT);
@@ -22,7 +22,7 @@ if(isset($confirm) && !empty($confirm) ) {
             'mdp' => $mdp,
         ));
         $_SESSION["message"]= 'toastr.success("Votre compte a été créer avec succès")';
-        header("Location:login.php");
+        header("Location:index.php?p=login");
 
         
     } 
