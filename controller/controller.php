@@ -30,7 +30,7 @@ session_start();
 			elseif($p=="sinscrire")
 			require("view/profil.php");
 			elseif($p=="about")
-			require("view/about.php");
+			require("view/about.php");*
 
             elseif($p=="rechercher"){
 			require("view/resultats.php");
