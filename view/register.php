@@ -14,7 +14,7 @@ extract($_SESSION);
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <!-- Fav Icon  -->
-<link rel="shortcut icon" href="public/images/favicon.png">
+<link rel="shortcut rooticon" href="public/images/favicon.png">
 <!-- Site Title  -->
 <title>Wincash Services | Connexion</title>
 <!-- Bundle and Base CSS -->

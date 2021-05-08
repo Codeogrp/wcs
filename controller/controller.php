@@ -24,6 +24,9 @@ session_start();
 			elseif($p=="profil")
 			require("view/profil.php");
 
+			elseif($p=="logout")
+			require("view/logout.php");
+
 			elseif($p=="sinscrire")
 			require("view/profil.php");
 			elseif($p=="about")

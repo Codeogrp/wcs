@@ -1,10 +1,9 @@
  
-<?php 
+<?php  
 session_start();
-//require_once('../model/utilisateurs/u_login.php');
-extract($_SESSION); 
-//   print $_SESSION["mail"];
-//session_destroy();
+include('model/utilisateurs/u_login.php') ;
+extract($_SESSION);
+session_destroy();
 ?>
 <!DOCTYPE html>
 <html lang="zxx" class="js">
@@ -77,6 +76,11 @@ extract($_SESSION);
 	<script src="public/assets/js/jquery.bundle.js?ver=192"></script>
 	<script src="public/assets/js/scripts.js?ver=192"></script>
 	<script src="public/assets/js/charts.js"></script>
- <?php include_once('toastr/toastr.php')?>
+   <!--   Toastr js -->
+   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <script type="text/javascript"><?php if(isset($message) && !empty($message)){print $message;}  ?></script>
+
 </body>
 </html>

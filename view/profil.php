@@ -1,5 +1,6 @@
 <?php 
 session_start();
+extract($_SESSION);
 $mail = $_SESSION["mail"]; 
 ?>
 <!DOCTYPE html>
@@ -157,7 +158,7 @@ $mail = $_SESSION["mail"];
               </div>
             </li>
             <li class="nav-item nav-logout d-none d-lg-block">
-              <a class="nav-link" href="logout.php">
+              <a class="nav-link" href="index.php?p=logout">
                 <i class="mdi mdi-power"></i>
               </a>
             </li>
