@@ -7,24 +7,24 @@
                         <div class="row justify-content-center no-gutters">
                             <div class="col-lg-6">
                                 <div class="contact-wrap split split-left split-lg-left bg-white">
-                                    <h5 class="title title-md">Contact Us</h5>
+                                    <h5 class="title title-md">Contactez Nous</h5>
                                     <form class="nk-form-submit" action="form/contact.php" method="post">
                                         <div class="field-item">
                                             <input name="contact-name" type="text" class="input-line required">
-                                            <label class="field-label field-label-line">Your Name</label>
+                                            <label class="field-label field-label-line">Votre Nom</label>
                                         </div>
                                         <div class="field-item">
                                             <input name="contact-email" type="email" class="input-line required email">
-                                            <label class="field-label field-label-line">Your Email</label>
+                                            <label class="field-label field-label-line">Votre Email</label>
                                         </div>
                                         <div class="field-item">
                                             <textarea name="contact-message" class="input-line input-textarea required"></textarea>
-                                            <label class="field-label field-label-line">Your Message</label>
+                                            <label class="field-label field-label-line">Votre Message</label>
                                         </div>
                                         <input type="text" class="d-none" name="form-anti-honeypot" value="">
                                         <div class="row">
                                             <div class="col-sm-4">
-                                                <button type="submit" class="btn btn-lg btn-grad">Submit</button>
+                                                <button type="submit" class="btn btn-lg btn-grad">Envoyer</button>
                                             </div>
                                             <div class="col-sm-8">
                                                 <div class="form-results"></div>
@@ -40,7 +40,7 @@
                                             <li>
                                                 <em class="contact-icon fas fa-building"></em>
                                                 <div class="contact-text">
-                                                    <h6>ICO Crypto</h6>
+                                                    <h6>Wincash Services</h6>
                                                     <span>728 Dooley Branch <br> Beckershire, LA 63598</span>
                                                 </div>
                                             </li>
@@ -64,7 +64,7 @@
                                             </li>
                                         </ul>
                                         <div class="contact-social">
-                                            <h6>Be a part of our community</h6>
+                                            <h6>Rejoignez notre communauté</h6>
                                             <ul class="social-links">
                                                 <li><a href="#"><em class="fab fa-twitter"></em></a></li>
                                                 <li><a href="#"><em class="fab fa-medium-m"></em></a></li>
@@ -92,14 +92,12 @@
                         <div class="row">
                             <div class="col-lg-2 col-sm-4">
                                 <div class="wgs wgs-menu">
-                                    <h6 class="wgs-title">Company</h6>
+                                    <h6 class="wgs-title">Wincash Services</h6>
                                     <div class="wgs-body">
                                         <ul class="wgs-links">
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Meet Our Team</a></li>
-                                            <li><a href="#">Advisors</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                            <li><a href="#">Insights</a></li>
+                                            <li><a href="#about">A propos</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -137,8 +135,8 @@
                                         <a href="./" class="wgs-logo">
                                             <img src="public/assets/images/logo-full-white.png" srcset="images/logo-full-white2x.png 2x" alt="logo">
                                         </a>
-                                        <p>Copyright © 2018 ICO Crypto. <br>ABN: 2018AD947. All rights reserved. </p>
-                                        <p class="copyright-text">Template by <a href="https://softnio.com/">Softnio</a>. Handcrafted by iO.</p>
+                                        <p>Copyright © 2021 Wincash Services. <br>Tous droits réservés. </p>
+                                        <p class="copyright-text">Créé par <a href="https://codeo.club/">CODEO</a>. </p>
                                     </div>
                                 </div>
                             </div><!-- .col -->

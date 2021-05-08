@@ -55,9 +55,6 @@
     <a class="menu-link nav-link menu-toggle" href="#about">A propos</a>
 </li>
 <li class="menu-item ">
-    <a class="menu-link nav-link menu-toggle" href="#services">Services</a>
-</li>
-<li class="menu-item ">
     <a class="menu-link nav-link menu-toggle" href="#offres">Offres</a>
 </li>
 <li class="menu-item ">

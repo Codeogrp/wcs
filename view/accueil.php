@@ -2,7 +2,7 @@
 
 
 			<!-- Banner @s --> 
-			<div class="header-banner bg-theme-grad">
+			<div class="header-banner bg-theme-grad" id="home">
                 <div class="nk-banner">
                     <div class="banner banner-fs banner-single tc-light">
                         <div class="banner-wrap">
@@ -10,7 +10,7 @@
                                 <div class="row align-items-center justify-content-center justify-content-lg-between">
                                     <div class="col-lg-6 col-xl-5 col-md-8 col-sm-9 order-last">
                                         <div class="token-status token-status-s3 round bg-theme-alt tc-light">
-                                            <h4 class="title-md title-thin">Profitez de notre plateforme d'éhhange</h4>
+                                            <h4 class="title-md title-thin">Profitez de notre plateforme d'échange</h4>
                                             <div class="countdown-s2 countdown" data-date="2020/03/15 20:00:00"></div>
                                             <div class="token-info token-info-s1">
                                                 <div class="token-info-item token-info-item-s1">
@@ -98,7 +98,7 @@
                         <div class="row align-items-center justify-content-lg-between gutter-vr-30px">
                             <div class="col-lg-5">
                                 <div class="nk-block-video">
-                                    <img src="images/services-4.jpg" alt="image">
+                                    <img src="public/images/services-4.jpg" alt="image">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -135,15 +135,15 @@
             
            
             <!-- // -->
-            <section class="section section-solution bg-light pt-0" id="solution">
+            <!--<section class="section section-solution bg-light pt-0" id="solution">
 
                 <div class="container">
-                    <!-- Section Head @s -->
+                    <!-- Section Head @s 
                     <div class="section-head text-center wide-auto-sm">
                         <h2 class="title">Solutions</h2>
                         <p>We are creating modular software, apps blockchain based accusamus et eiusto odio dignimus qui blan ditiis praes entium volup tatun.</p>
                     </div><!-- .section-head @e -->
-                    <!-- Block @s -->
+                    <!-- Block @s 
                     <div class="nk-block nk-block-features-s3">
                         <div class="row gutter-vr-40px justify-content-center">
                             <div class="col-lg-6 col-md-10">
@@ -156,7 +156,7 @@
                                         <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid eos qui ratione</p>
                                     </div>
                                 </div>
-                            </div><!-- .col -->
+                            </div><!-- .col 
                             <div class="col-lg-6 col-md-10">
                                 <div class="feature feature-s3 feature-center">
                                     <div class="feature-icon feature-icon-lg">
@@ -167,7 +167,7 @@
                                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia agni dolores eos qui ratione voluptatem sequi</p>
                                     </div>
                                 </div>
-                            </div><!-- .col -->
+                            </div><!-- .col 
                             <div class="col-lg-6 col-md-10">
                                 <div class="feature feature-s3 feature-center">
                                     <div class="feature-icon feature-icon-lg">
@@ -178,7 +178,7 @@
                                         <p>Empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris fugiat nulla sed do</p>
                                     </div>
                                 </div>
-                            </div><!-- .col -->
+                            </div><!-- .col 
                             <div class="col-lg-6 col-md-10">
                                 <div class="feature feature-s3 feature-center">
                                     <div class="feature-icon feature-icon-lg">
@@ -189,69 +189,172 @@
                                         <p>Ut enim ad minim veniam, quis nostrud  ullamco laboris fugiat nulla sed do eiusmod. Empor incididunt ut labore et dolore magna</p>
                                     </div>
                                 </div>
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .block @e -->
+                            </div><!-- .col 
+                        </div><!-- .row 
+                    </div><!-- .block @e 
                 </div>
 
-            </section>
+            </section>-->
             <!-- // -->
             
-            <div class="section section-roadmap " id="roadmap">
+            <div class="section section-roadmap " id="offres">
 
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block nk-block-roadmap">
+                    <h3 align="center">Les niveaux d'investissements</h3><br>
                         <div class="row justify-content-center">
                             <div class="col-xl-10">
+                                
                                 <div class="roadmap-wrap mb-0">
                                     <div class="roadmap-line"></div>
                                     <div class="roadmap">
-                                        <div class="roadmap-year">2018</div>
+                                        <div class="roadmap-year">1</div>
                                     </div>
                                     <div class="roadmap roadmap-right roadmap-finished">
                                         <div class="roadmap-step">
                                             <div class="roadmap-head">
-                                                <span class="roadmap-time">March 2018</span>
-                                                <span class="roadmap-title">Concept development</span>
+                                                <span class="roadmap-time">50$ - 499$</span>
+                                                <span class="roadmap-title">0,7% - 0,9% <b>d'intérêts par jour</b></span>
                                             </div>
-                                            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                                            <p>Le contrat dispose d'une durée de 16 jours.</p>
+                                            <a class="btn btn-grad" href="#">Acheter le pack</a>
                                         </div>
                                     </div>
                                     <div class="roadmap roadmap-left roadmap-finished">
                                         <div class="roadmap-step">
                                             <div class="roadmap-head">
-                                                <span class="roadmap-time">Q3 &amp; Q4 2018</span>
-                                                <span class="roadmap-title">Website and Whitepaper</span>
+                                                <span class="roadmap-time">Avantages Supplémentaires</span>
+                                                <span class="roadmap-title">...</span>
                                             </div>
-                                            <ul class="list list-dot roadmap-step-list">
+                                           <!-- <ul class="list list-dot roadmap-step-list">
                                                 <li>MVP of wallet prototype released</li>
                                                 <li>Pre-Sale ICO Starts</li>
                                                 <li>Redesign of website goes live</li>
                                                 <li>Version 2 of Whitepaper released</li>
                                                 <li>Version 3 of Onepager released</li>
-                                            </ul>
+                                            </ul>-->
                                         </div>
                                     </div>
                                     <div class="roadmap">
-                                        <div class="roadmap-year">2019</div>
+                                        <div class="roadmap-year">2</div>
                                     </div>
                                     <div class="roadmap roadmap-right">
                                         <div class="roadmap-step">
                                             <div class="roadmap-head">
-                                                <span class="roadmap-time">Q1 2019</span>
-                                                <span class="roadmap-title">Public Token Sale Begins</span>
+                                                <span class="roadmap-time">500$ - 2999$</span>
+                                                <span class="roadmap-title">1% - 1,2% <b>d'intérêts journaliers</b></span>
                                             </div>
-                                            <p>Public ICO launch and crowd-sale starts - 5th Januray &amp; Token distribution will commence - 2nd March.</p>
+                                            <p>Le contrat dispose d'une durée de 26 jours.</p>
+                                            <a class="btn btn-grad" href="#">Acheter le pack</a>
                                         </div>
                                     </div>
                                     <div class="roadmap roadmap-left">
                                         <div class="roadmap-step">
                                             <div class="roadmap-head">
-                                                <span class="roadmap-time">Q2 2019</span>
-                                                <span class="roadmap-title">Beta App User Testing</span>
+                                                <span class="roadmap-time">Avantages Supplémentaires</span>
+                                                <span class="roadmap-title">...</span>
                                             </div>
-                                            <p>Release our first apps for beta testing to our members comunity</p>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap-line"></div>
+                                    <div class="roadmap">
+                                        <div class="roadmap-year">3</div>
+                                    </div>
+                                    <div class="roadmap roadmap-right roadmap-finished">
+                                        <div class="roadmap-step">
+                                            <div class="roadmap-head">
+                                                <span class="roadmap-time">3000$ - 9999$</span>
+                                                <span class="roadmap-title">1,3% - 1,5% <b>d'intérêts journaliers</b></span>
+                                            </div>
+                                            <p>Le contrat dispose d'une durée de 36 jours.</p>
+                                            <a class="btn btn-grad" href="#">Acheter le pack</a>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap roadmap-left roadmap-finished">
+                                        <div class="roadmap-step">
+                                            <div class="roadmap-head">
+                                            <span class="roadmap-time">Avantages Supplémentaires</span>
+                                                <span class="roadmap-title">...</span>
+                                            </div>
+                                            <!--<ul class="list list-dot roadmap-step-list">
+                                                <li>MVP of wallet prototype released</li>
+                                                <li>Pre-Sale ICO Starts</li>
+                                                <li>Redesign of website goes live</li>
+                                                <li>Version 2 of Whitepaper released</li>
+                                                <li>Version 3 of Onepager released</li>
+                                            </ul>-->
+                                        </div>
+                                    </div>
+                                    <div class="roadmap">
+                                        <div class="roadmap-year">4</div>
+                                    </div>
+                                    <div class="roadmap roadmap-right">
+                                        <div class="roadmap-step">
+                                            <div class="roadmap-head">
+                                                <span class="roadmap-time">10000$ - 24999$</span>
+                                                <span class="roadmap-title">1,6% - 1,8% <b>d'intérêts journaliers</b></span>
+                                            </div>
+                                            <p>Le contrat dispose d'une durée de 50 jours.</p>
+                                            <a class="btn btn-grad" href="#">Acheter le pack</a>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap roadmap-left">
+                                        <div class="roadmap-step">
+                                            <div class="roadmap-head">
+                                            <span class="roadmap-time">Avantages Supplémentaires</span>
+                                                <span class="roadmap-title">...</span>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="roadmap-line"></div>
+                                    <div class="roadmap">
+                                        <div class="roadmap-year">5</div>
+                                    </div>
+                                    <div class="roadmap roadmap-right roadmap-finished">
+                                        <div class="roadmap-step">
+                                            <div class="roadmap-head">
+                                                <span class="roadmap-time">25000$ - 149000$</span>
+                                                <span class="roadmap-title">1,9% - 2,1% <b>d'intérêts journaliers</b></span>
+                                            </div>
+                                            <p>Le contrat dispose d'une durée de 75 jours.</p>
+                                            <a class="btn btn-grad" href="#">Acheter le pack</a>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap roadmap-left roadmap-finished">
+                                        <div class="roadmap-step">
+                                            <div class="roadmap-head">
+                                            <span class="roadmap-time">Avantages Supplémentaires</span>
+                                                <span class="roadmap-title">...</span>
+                                            </div>
+                                            <!--<ul class="list list-dot roadmap-step-list">
+                                                <li>MVP of wallet prototype released</li>
+                                                <li>Pre-Sale ICO Starts</li>
+                                                <li>Redesign of website goes live</li>
+                                                <li>Version 2 of Whitepaper released</li>
+                                                <li>Version 3 of Onepager released</li>
+                                            </ul>-->
+                                        </div>
+                                    </div>
+                                    <div class="roadmap">
+                                        <div class="roadmap-year">NB</div>
+                                    </div>
+                                    <div class="roadmap roadmap-right">
+                                        <div class="roadmap-step">
+                                            <div class="roadmap-head">
+                                                <span class="roadmap-time">A propos des <b>Retours Sur Investissements</b></span>
+                                                <span class="roadmap-title">Il comporte le capital investi ainsi que les intérêts obtenus au cours de la <b>durée du contrat</b></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap roadmap-left">
+                                        <div class="roadmap-step">
+                                            <div class="roadmap-head">
+                                                <span class="roadmap-time">Autres informations</span>
+                                                <span class="roadmap-title">...</span>
+                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +371,7 @@
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block block-partners">
-                        <h6 class="title title-xs title-light text-center">Our Partners</h6>
+                        <h6 class="title title-xs title-light text-center">Nos méthodes de paiements </h6>
                         <ul class="partner-list flex-lg-nowrap">
                             <li class="partner-logo"><img src="images/partners/a.png" alt="partner"></li>
                             <li class="partner-logo"><img src="images/partners/b.png" alt="partner"></li>
