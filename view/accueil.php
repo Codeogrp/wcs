@@ -1,5 +1,7 @@
-<?php include("header.php");  ?>
-
+<?php include("header.php");
+extract($_SESSION); 
+$_SESSION["message"]="";?>
+ 
 
 			<!-- Banner @s --> 
 			<div class="header-banner bg-theme-grad" id="home">
@@ -47,7 +49,7 @@
                                             </div>
                                             <div class="cpn-action">
                                                 <ul class="cpn-links">
-                                                    <li><a href="#" class="btn btn-outline btn-primary">Rejoignez Nous</a></li>
+                                                    <li><a href="index.php?p=register" class="btn btn-outline btn-primary">Rejoignez Nous</a></li>
                                                     <li><a href="#" class="link"><em class="link-icon fas fa-file"></em> <span>Votre guide personnel</span></a></li>
                                                 </ul>
                                             </div>

@@ -60,12 +60,23 @@
 <li class="menu-item ">
     <a class="menu-link nav-link menu-toggle" href="#contact">Contact</a>
 </li>
+<?php if(isset($_SESSION["islogin"]) && $_SESSION["islogin"]==1){?>
+    <li class="menu-item ">
+    <a class="menu-link nav-link" href="index.php?p=profil">Mon Compte</a>
+</li>
+   <?php }?>
 
 
 </ul>
 
 <ul class="menu-btns">
+<?php if(isset($_SESSION["islogin"]) && $_SESSION["islogin"]==1){?>
+   
+<li><a href="index.php?p=logout" class="btn btn-md btn-auto btn-grad no-change"><span>Se deconnecter</span></a></li>
+
+<?php } else{?>
     <li><a href="index.php?p=login" class="btn btn-md btn-auto btn-grad no-change"><span>Se connecter</span></a></li>
+    <?php }?>
 </ul>
 </nav>
                     </div><!-- .header-navbar @e -->

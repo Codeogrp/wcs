@@ -1,9 +1,13 @@
- 
+
 <?php  
-session_start();
-include('model/utilisateurs/u_login.php') ;
-extract($_SESSION);
-session_destroy();
+//include('model/utilisateurs/u_login.php') ;
+  
+ extract($_SESSION);
+$_SESSION["message"]="";
+if(isset($_SESSION["islogin"]) && $_SESSION["islogin"]==1){
+    $_SESSION["message"]='toastr.error("Vous êtes déja connecté !")';
+    header("Location:index.php?p=accueil");
+  }
 ?>
 <!DOCTYPE html>
 <html lang="zxx" class="js">
@@ -40,7 +44,7 @@ session_destroy();
                 </div>
                 <div class="ath-body">
                     <h5 class="ath-heading title">Connectez vous !</h5>
-                    <form action="#" method="POST">
+                    <form action="model/utilisateurs/u_login.php" method="POST">
                         <div class="field-item">
                             <div class="field-wrap">
                                 <input type="text" class="input-bordered" name="mail" placeholder="Email">
@@ -53,14 +57,12 @@ session_destroy();
                         </div>
                         <div class="d-flex justify-content-between align-items-center pdb-r">
                             <div class="field-item pb-0">
-                                <input class="input-checkbox" name="remember" id="remember-me-2" type="checkbox">
-                                <label for="remember-me-2">Se rappeler de moi</label>
+                                 <button value="1" name="login" type="submit" class="btn btn-primary btn-block btn-md">Se connecter</button>
                             </div>
                             <div class="forget-link fz-6">
                                 <a href="#">Mot de passe oublié?</a>
                             </div>
                         </div>
-                        <button value=1 name="login" class="btn btn-primary btn-block btn-md">Se connecter</button>
                     </form>
                     
                 </div>

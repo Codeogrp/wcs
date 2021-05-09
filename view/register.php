@@ -1,7 +1,13 @@
 
 <?php 
-require_once('model/utilisateurs/u_create.php');
+
 extract($_SESSION);
+$_SESSION["message"]="";
+//require_once('model/utilisateurs/u_create.php');
+if(isset($_SESSION["islogin"]) && $_SESSION["islogin"]==1){
+    $_SESSION["message"]='toastr.error("Vous êtes déja connecté !")';
+    header("Location:index.php?p=accueil");
+  }
 //session_destroy();
 //header('Location:login.php')
 ?>
@@ -39,7 +45,7 @@ extract($_SESSION);
                 </div>
                 <div class="ath-body">
                     <h5 class="ath-heading title">Inscrivez vous </h5>
-                    <form action="#" method="POST">
+                    <form action="model/utilisateurs/u_create.php" method="POST">
                     <!-- Pour les notifs   -->
                     <div id="message">
                         <?php
